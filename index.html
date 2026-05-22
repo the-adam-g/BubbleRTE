@@ -2,7 +2,14 @@
 <html>
 	<link href="style.css" rel="stylesheet" type="text/css">
 </html>
-<div id="toolbar">
+	<div id="toolbar">
+		<label class="format-btn" onclick="download('html')">
+		<span>Save HTML</span>
+	</label>
+
+	<label class="format-btn" onclick="download('md')">
+		<span>Save MD</span>
+	</label>
 	<label class="format-btn">
 		<input type="checkbox" onclick="insert('b', 'txt')" id="bold">
 		<b>B</b>
@@ -17,7 +24,15 @@
 	</label>
 	<label class="format-btn">
 		<input type="checkbox" onclick="insert('ul', 'list')" id="bulletlist">
-		<p>● --</p>
+		<span>Bullet list</span>
+	</label>
+	<label class="format-btn">
+		<input type="checkbox" onclick="insert('ol', 'list')" id="bulletlist">
+		<span>Ordered list</span>
+	</label>
+	<label class="format-btn">
+		<input type="checkbox" onclick="insert('a', 'txt')" id="alink">
+		<span>Link</span>
 	</label>
 </div>
 <br>

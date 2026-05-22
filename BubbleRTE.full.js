@@ -8,12 +8,23 @@ const outbox = document.getElementById("editor");
 function insert(val, type) {
 	chartype = type;
 	if (type === 'txt') {
-		if (!(active.includes(val))) {
-			chars.push(`<${val}>`);
-			active.push(val);
-		} else if (active.includes(val)) {
-			chars.push(`</${val}>`);
-			active.splice(active.indexOf(val), 1);
+		if (val === 'a') {
+			if (!(active.includes(val))) {
+				let src = prompt('Enter URL');
+				chars.push(`<a href=${src}>`);
+				active.push(val);
+			} else if (active.includes(val)) {
+				chars.push("</a>");
+				active.splice(active.indexOf(val), 1);
+			}
+		} else {
+			if (!(active.includes(val))) {
+				chars.push(`<${val}>`);
+				active.push(val);
+			} else if (active.includes(val)) {
+				chars.push(`</${val}>`);
+				active.splice(active.indexOf(val), 1);
+			}
 		}
 	} else if (type === 'list') {
 		if (!(active.includes(val))) {
@@ -58,4 +69,25 @@ textbox.addEventListener('keydown', function (e) {
 
 function updateOutbox() {
     outbox.innerHTML = chars.join('');
+}
+
+function download(format) {
+	let filename = "document.html"; //also a safety net
+	let type = "html"; //safety net
+    const html = chars.join('');
+	if (format === "md") {
+		filename = "document.md";
+		type = "text/markdown";
+	} else {
+		filename = "document.html";
+		type = "text/html";
+	}
+    const blob = new Blob([html], { type });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = filename;
+    a.click();
+
+    URL.revokeObjectURL(url);
 }
