@@ -1,6 +1,8 @@
 # BubbleRTE
 A JavaScript based HTML encoding rich text editor. Created to support my other project of the Bubble communication platform
 
+<img width="872" height="126" alt="brave_ulATCOTUYW" src="https://github.com/user-attachments/assets/84481150-1cfb-459a-9b77-b66d020b3e61" />
+
 <h1>⚠️ THIS PROJECT IS STILL VERY EARLY IN DEVELOPMENT</h1>
 
 ## Features
@@ -19,3 +21,6 @@ As this project relies on html parsing it could be vulnerable to attacks like HT
 This project was written by a single individual and so is liable to bugs and security vulnerabilities as i have a lot of projects and this was built to help another work
 
 By downloading the code, you accept all risks and repsonsibilities as explained above.
+
+## Screenshots
+<img width="895" height="359" alt="image" src="https://github.com/user-attachments/assets/8bc463fd-ffb3-45a2-8af9-fbc9b08b1757" />
