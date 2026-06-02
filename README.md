@@ -3,6 +3,7 @@ A JavaScript based HTML encoding rich text editor. Created to support my other p
 <div align="center">
   <img width="872" height="126" alt="brave_ulATCOTUYW" src="https://github.com/user-attachments/assets/84481150-1cfb-459a-9b77-b66d020b3e61" />
 </div>
+
 <h1>⚠️ THIS PROJECT IS STILL VERY EARLY IN DEVELOPMENT</h1>
 
 ## Features
@@ -29,3 +30,6 @@ This project was written by a single individual and so is liable to bugs and sec
 
 ## Screenshots
 <img width="895" height="359" alt="image" src="https://github.com/user-attachments/assets/8bc463fd-ffb3-45a2-8af9-fbc9b08b1757" />
+
+> [!TIP]
+> Demo available: https://rte.bubl.work/
