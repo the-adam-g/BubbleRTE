@@ -31,7 +31,7 @@ This project was written by a single individual and so is liable to bugs and sec
 > By downloading the code, you accept all risks and repsonsibilities as explained above.
 
 ## Screenshots
-<img width="895" height="359" alt="image" src="https://github.com/user-attachments/assets/8bc463fd-ffb3-45a2-8af9-fbc9b08b1757" />
+<img width="1019" height="729" alt="image" src="https://github.com/user-attachments/assets/1b6bdb55-8854-4c20-a52c-397402290228" />
 
 > [!TIP]
 > Demo available: https://rte.bubl.work/
