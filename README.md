@@ -1,7 +1,7 @@
 # BubbleRTE
 A JavaScript based HTML encoding rich text editor. Created to support my other project of the Bubble communication platform
 <div align="center">
-  <img width="872" height="126" alt="brave_ulATCOTUYW" src="https://github.com/user-attachments/assets/84481150-1cfb-459a-9b77-b66d020b3e61" />
+  <img width="3006" height="480" alt="version1 4" src="https://github.com/user-attachments/assets/b9169229-6626-4aca-acae-46c715f58172" />
 </div>
 
 <h1>⚠️ THIS PROJECT IS STILL VERY EARLY IN DEVELOPMENT</h1>
