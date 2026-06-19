@@ -17,6 +17,12 @@ function insert(val, type) {
 				chars.push("</a>");
 				active.splice(active.indexOf(val), 1);
 			}
+		} else if (val === 'img') {
+			if (!(active.includes(val))) {
+				let src = prompt('Enter URL');
+				chars.push(`<img src=${src}>`);
+				active.push(val);
+			}
 		} else {
 			if (!(active.includes(val))) {
 				chars.push(`<${val}>`);
